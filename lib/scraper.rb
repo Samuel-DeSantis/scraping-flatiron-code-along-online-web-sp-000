@@ -10,7 +10,7 @@ class Scraper
   end
 
   def get_courses
-    doc.css(".post").first
+    puts doc.css(".post").first
   end
 
   def make_courses
