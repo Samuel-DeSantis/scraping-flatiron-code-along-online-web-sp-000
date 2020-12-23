@@ -8,7 +8,7 @@ class Course
   end
 
   def save
-    self.all << self
+    @@all << self
   end
 
   def self.all
@@ -16,7 +16,7 @@ class Course
   end
 
   def self.reset_all
-    self.all.clear
+    @@all.clear
   end
 
 end
